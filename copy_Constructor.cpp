@@ -36,8 +36,8 @@ void display_player(Person v){
 
 int main(){
     Person john("John",30,'M');
-    Person empty_person(john);  //copy of John
-    // Person *esther = new Person{"Esther",18,'F'};
+    Person empty_person(john);  //copy of the John  class
+    // Person *esther = new Person{"Esther",18,'F'}; 
     display_player(empty_person);
     Person dan{"Dan"};
     // display_player(*esther);
